@@ -22,4 +22,8 @@ public class MainActivity extends AppCompatActivity {
         TextView tvData = findViewById(R.id.tvData);
         tvData.setText(viewModel.getSomeData());
     }
+
+    private void commit() {
+
+    }
 }
